@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<div class="header" style="position: relative;overflow:hidden;">
+			<div class="bg"></div>
+			<div class="container-fluid text-white content">
+				<h1> Enter a country's ISO code </h1>
+			</div>
+		</div>
+
+		<div class="container searchISO">
+			<form class="searchForm">
+				<input class="isoInput" name="ISO" placeholder="Type in a country's ISO code to start"/>
+				<button class="submitBtn" onclick="getCountry()"><img src="images/search_icon.png" /></button>
+			</form>
+		</div>
+
+		<div class="container result text-center mt-3 mt-lg-4">
+					<h2><span class="countryName"></span></h2>
+
+			<div class="row">
+				<div class="col-2 col-lg-6">
+					<h2>Region: <span class="regionResult">____</span></h2>
+
+				</div>
+
+				<div class="col-12 col-lg-6">
+					<h2>Captial City: <span class="capitalResult">__</span></h2>
+
+				</div>
+			</div>
+
+	<div class="row">
+			<div class="col-12 col-lg-6">
+				<h2>Longitude: <span class="longitudeResult">______</span></h2>
+
+			</div>
+
+			<div class="col-12 col-lg-6">
+				<h2>Latitude: <span class="latitudeResult">______</span></h2>
+
+			</div>
+			</div>
+
+		</div>
+
+		<script src="scripts.js"></script>
+	</body>
+<footer>
+	<p> For more information regarding ISO codes, please visit here:  </p>
+</footer>
+</html>
