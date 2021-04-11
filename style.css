@@ -91,12 +91,10 @@ body {
 
 .result > div > div {
     padding: 35px 10px;
+		background-color: #deb239;
 }
 
-.result > div > div:not(:last-child) {
-border-right: 0;
-border-bottom: 2px solid #690000;
-}
+
 
 @media (min-width: 576px){
 	.searchISO .searchForm {
@@ -117,13 +115,7 @@ border-bottom: 2px solid #690000;
 		padding: 20px 40px 60px;
 	}
 
-	.searchISO .selfieUpload {
-		height: 100%;
-		position: absolute;
-		top: 0;
-		right: 0;
-		margin: 0;
-	}
+
 }
 
 @media (min-width: 992px){
@@ -135,10 +127,7 @@ border-bottom: 2px solid #690000;
 		padding: 25px 40px 85px;
 	}
 
-	.result > div > div:not(:last-child) {
-		border-right: 2px solid #690000;
-		border-bottom: 0;
-	}
+
 }
 
 @media (min-width: 1200px){
