@@ -1,0 +1,140 @@
+body {
+	height: 100vh;
+	background: #ffe9ac !important;
+}
+
+.header {
+	position: relative;
+    overflow: hidden;
+    background: #deb239;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('images/background.png') center center;
+
+	opacity: 0.5;
+  }
+
+.btns {
+	width: 33%;
+	height: 33%;
+  top: 50%;
+	left: 16.5%;
+	position: relative;
+	background-color: #ed9528;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header .content {
+    text-align: center;
+    padding: 50px 40px 100px;
+}
+
+.header .content h1 {
+    text-shadow: -2px 2px 3px black;
+	position: relative;
+}
+
+.searchISO {
+    margin-top: -25px;
+	position: relative;
+}
+
+.searchISO .searchForm {
+    display: flex;
+    padding: 10px 15px;
+    background: #ffafaf;
+    border-radius: 100vw;
+    border: 3px solid #ff6f6f;
+    width: 100%;
+    margin: auto;
+	position: relative;
+}
+
+.searchISO .searchForm .isoInput, .searchISO .searchForm .nameInput::placeholder {
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    width: 100%;
+    padding-right: 45px;
+    color: #690000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.searchISO .searchForm .submitBtn {
+    border: none;
+    background: none;
+    right: 15px;
+    position: absolute;
+}
+
+.searchISO .searchForm .submitBtn img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.result > div > div {
+    padding: 35px 10px;
+}
+
+
+
+@media (min-width: 576px){
+	.searchISO .searchForm {
+		width: 100%!important;
+	}
+
+	.header .content {
+		padding: 10px 40px 40px;
+	}
+}
+
+@media (min-width: 768px){
+	.searchISO .searchForm {
+		width: 80%!important;
+	}
+
+	.header .content {
+		padding: 20px 40px 60px;
+	}
+
+
+}
+
+@media (min-width: 992px){
+	.searchISO .searchForm {
+		width: 50%!important;
+	}
+
+	.header .content {
+		padding: 25px 40px 85px;
+	}
+
+
+}
+
+@media (min-width: 1200px){
+	.searchISO .searchForm {
+		width: 40%!important;
+	}
+
+	.header .content {
+		padding: 50px 40px 100px;
+	}
+}
