@@ -1,12 +1,13 @@
 body {
 	height: 100vh;
-	background: #ffe9ac !important;
+	background: #353A52 !important;
+	color: #F5F5F5 !important;
 }
 
 .header {
 	position: relative;
     overflow: hidden;
-    background: #deb239;
+    background: #99B2DD;
 }
 
 .bg {
@@ -28,7 +29,7 @@ body {
 	position: relative;
 	background-color: #ed9528;
   border: none;
-  color: white;
+  color: #F5F5F5;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -56,9 +57,9 @@ body {
 .searchISO .searchForm {
     display: flex;
     padding: 10px 15px;
-    background: #ffafaf;
+    background: #99B2DD;
     border-radius: 100vw;
-    border: 3px solid #ff6f6f;
+    border: 3px solid #3A405A;
     width: 100%;
     margin: auto;
 	position: relative;
@@ -71,7 +72,7 @@ body {
     font-size: 18px;
     width: 100%;
     padding-right: 45px;
-    color: #690000;
+    color: #F5F5F5;
     font-weight: bold;
     text-align: left;
 }
@@ -91,7 +92,6 @@ body {
 
 .result > div > div {
     padding: 35px 10px;
-		background-color: #deb239;
 }
 
 
